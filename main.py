@@ -11,6 +11,7 @@ app = FastAPI()
 origins = [
     "http://localhost",
     "http://localhost:3000",
+    #expo server
 ]
 
 app.add_middleware(
@@ -36,7 +37,7 @@ CLASS_NAMES = ['Pepper bell Bacterial spot',
  'Tomato Tomato mosaic virus',
  'Tomato healthy']
 
-MODEL = tf.keras.models.load_model("./models/version_2.h5")
+MODEL = tf.keras.models.load_model("./models/version_3.h5")
 
 
 @app.post("/predict")
