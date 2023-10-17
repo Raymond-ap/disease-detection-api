@@ -39,402 +39,155 @@ app.add_middleware(
 
 
 PLANT_CLASS_NAMES = [
-    'Apple___Apple_scab', 'Apple___Black_rot', 'Apple___Cedar_apple_rust', 'Apple___healthy',
-    'Blueberry___healthy', 'Cherry_(including_sour)___Powdery_mildew', 'Cherry_(including_sour)___healthy',
-    'Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot', 'Corn_(maize)___Common_rust_',
-    'Corn_(maize)___Northern_Leaf_Blight', 'Corn_(maize)___healthy', 'Grape___Black_rot',
-    'Grape___Esca_(Black_Measles)', 'Grape___Leaf_blight_(Isariopsis_Leaf_Spot)', 'Grape___healthy',
-    'Orange___Haunglongbing_(Citrus_greening)', 'Peach___Bacterial_spot', 'Peach___healthy',
-    'Pepper,_bell___Bacterial_spot', 'Pepper,_bell___healthy', 'Potato___Early_blight', 'Potato___Late_blight',
-    'Potato___healthy', 'Raspberry___healthy', 'Soybean___healthy', 'Squash___Powdery_mildew',
-    'Strawberry___Leaf_scorch', 'Strawberry___healthy', 'Tomato___Bacterial_spot', 'Tomato___Early_blight',
-    'Tomato___Late_blight', 'Tomato___Leaf_Mold', 'Tomato___Septoria_leaf_spot',
-    'Tomato___Spider_mites Two-spotted_spider_mite', 'Tomato___Target_Spot',
-    'Tomato___Tomato_Yellow_Leaf_Curl_Virus', 'Tomato___Tomato_mosaic_virus', 'Tomato___healthy'
+    'Pepper bell Bacterial spot',
+    'Pepper bell healthy',
+    'Potato Early blight',
+    'Potato Late blight',
+    'Potato healthy',
+    'Tomato Bacterial spot',
+    'Tomato Early blight',
+    'Tomato Late blight',
+    'Tomato Leaf Mold',
+    'Tomato Septoria leaf spot',
+    'Tomato Target Spot',
+    'Tomato Tomato YellowLeaf Curl Virus',
+    'Tomato Tomato mosaic virus',
+    'Tomato healthy'
 ]
 
 PLANT_MANAGEMENTS = [
     {
-        "name": "Apple___Apple_scab",
-        "symptoms": [
-            "Circular, brown to black lesions on apple leaves, fruit, and stems.",
-            "Lesions may have a dark border and cause fruit to shrivel and mummify.",
-            "Reduced fruit yield and quality."
-        ],
+        "name": "Pepper bell Bacterial spot",
+        "symptoms":
+            "Disease symptoms can appear throughout the above-ground portion of the plant, which may include leaf spot, fruit spot and stem canker. However, early symptoms show up as water-soaked lesions on leaves that can quickly change from green to dark brown and enlarge into spots that are up to 1/4 inch in diameter with slightly raised margins. Over time, these spots can dry up in less humid weather, which allows the damaged tissues to fall off, resulting in a tattered appearance on the affected leaves",
         "treatments": [
-            "Prune and remove infected plant parts.",
-            "Apply fungicides during the growing season.",
-            "Practice good orchard sanitation to reduce disease spread."
+            "Washing seeds for 40 minutes in diluted Clorox (two parts Clorox plus eight parts water) is effective in reducing the bacterial population on a seed’s surface. However, bacteria inside the seeds are little affected by this treatment. ",
+            "Seed treatment with hot water, soaking seeds for 30 minutes in water pre-heated to 125 F/51 C, is effective in reducing bacterial populations on the surface and inside the seeds. However, seed germination may be affected by heat treatment if not done accurately, while the risk is relatively low with bleach treatment. ",
+            "Control of bacterial spot on greenhouse transplants is an essential step for preventing the spread of the leaf spot bacteria in the field. Transplants should be inspected regularly to identify symptomatic seedlings. Transplants with symptoms may be removed and destroyed or treated with streptomycin, if detected at the very early stage of disease development. It should be noted that strains of leaf spot bacteria resistant to streptomycin may arise with multiple applications of streptomycin. ",
+            "Good cultural practices include avoiding all conditions that enable the pathogen to spread and multiply rapidly. Bacteria spread with splashing water. Therefore, overhead irrigation method should be replaced with drip irrigation and the field should not be accessed when plants are wet. ",
         ]
     },
     {
-        "name": "Apple___Black_rot",
-        "symptoms": [
-            "Circular, brown to black lesions on apple leaves, fruit, and stems.",
-            "Lesions may have a dark border and cause fruit to shrivel and mummify.",
-            "Reduced fruit yield and quality."
-        ],
+        "name": "Potato Early blight",
+        "symptoms":
+            "The first symptoms of early blight appear as small, circular or irregular, dark-brown to black spots on the older (lower) leaves. These spots enlarge up to 3/8 inch in diameter and gradually may become angular-shaped.",
         "treatments": [
-            "Prune and remove infected plant parts.",
-            "Apply fungicides during the growing season.",
-            "Practice good orchard sanitation to reduce disease spread."
+            "Avoid nitrogen and phosphorus deficiency.",
+            "Select a late-season variety with a lower susceptibility to early blight. (Resistance is associated with plant maturity and early maturing cultivars are more susceptible).",
+            "Time irrigation to minimize leaf wetness duration during cloudy weather and allow sufficient time for leaves to dry prior to nightfall.",
+            "Rotate foliar fungicides to prevent the development of fungicide resistance.",
+            "Eradicate weed hosts such as hairy nightshade to reduce inoculum for future plantings.",
+            "Rotate fields to non-host crops for at least three years (three to four-year crop rotation).",
         ]
     },
     {
-        "name": "Apple___Cedar_apple_rust",
-        "symptoms": [
-            "Bright orange, spore-producing galls on apple leaves and fruit.",
-            "Yellow or orange spots on apple leaves with small black dots.",
-            "Reduced fruit yield and quality."
-        ],
+        "name": "Potato Late blight",
+        "symptoms":
+            "The first symptoms of late blight in the field are small, light to dark green, circular to irregular-shaped water-soaked spots. These lesions usually appear first on the lower leaves. Lesions often begin to develop near the leaf tips or edges, where dew is retained the longest. During cool, moist weather, these lesions expand rapidly into large, dark brown or black lesions, often appearing greasy. Leaf lesions also frequently are surrounded by a yellow chlorotic halo",
         "treatments": [
-            "Remove cedar trees nearby as they serve as alternate hosts.",
-            "Apply fungicides during apple growing season.",
-            "Prune and destroy infected plant parts."
+            "Avoid planting problem areas that may remain wet for extended periods or may be difficult to spray (the field near the center of the pivot, along powerlines and tree lines).",
+            "Destroy all cull and volunteer potatoes.",
+            "Plant late blight-free seed tubers.",
+            "Do not mix seed lots because cutting can transmit late blight.",
+            "Avoid excessive and/or nighttime irrigation.",
+            "Eliminate sources of inoculum such as hairy nightshade weed species and volunteer potatoes.",
+            "Applying phosphorous acid to potatoes after harvest and before piling can prevent infection and the spread of late blight in storage.",
+            "Monitor home garden and market tomatoes near you for late blight. Late blight can move from these local sources to potato fields.",
         ]
     },
     {
-        "name": "Apple___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Blueberry___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Cherry_(including_sour)___Powdery_mildew",
-        "symptoms": [
-            "White, powdery fungal growth on cherry leaves, fruit, and stems.",
-            "Affected leaves may become distorted or curl.",
-            "Reduced fruit yield and quality."
-        ],
+        "name": "Tomato Bacterial spot",
+        "symptoms":
+        "When it first appears on the leaves, bacterial spot is similar in appearance to many other tomatoes diseases. Tomato leaves have small (less than 1/8 inch), brown, circular spots surrounded by a yellow halo. The center of the leaf spots often falls out resulting in small holes. The leaf spots do not contain concentric rings, spots with concentric rings are likely caused by early blight.",
         "treatments": [
-            "Apply fungicides during the growing season.",
-            "Prune and remove infected plant parts.",
-            "Promote good air circulation in the orchard."
+            "Look for leaves with spots, especially during periods of wet, humid weather. Remove and destroy infected leaves. ",
+            "There are many varieties of bell pepper and hot pepper with resistance to bacterial spot.",
+            "A few tomato varieties with resistance are available."
+            "Plant tomatoes where no tomatoes, potatoes, peppers or eggplants have been for the past 3-4 years.",
+            "Keep tomato leaves as dry as possible. Water with drip irrigation or a soaker hose. If watering by hand, do so at the base of the plant.",
+            "Space plants so that air flows between them.  This could range from 18-24 inches for caged tomatoes to 30-36 inches for uncaged determinate tomatoes."
         ]
     },
     {
-        "name": "Cherry_(including_sour)___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
-        "symptoms": [
-            "Small, circular to oval lesions with gray centers and dark borders on corn leaves.",
-            "Leaves may turn yellow or brown, and lesions can coalesce.",
-            "Reduced photosynthesis and yield loss."
-        ],
+        "name": "Tomato Early blight",
+        "symptoms":
+            "Initially, small dark spots form on older foliage near the ground. Leaf spots are round, brown and can grow up to 1/2 inch in diameter. Larger spots have target-like concentric rings. The tissue around spots often turns yellow. Severely infected leaves turn brown and fall off, or dead, dried leaves may cling to the stem. Seedling stems are infected at or just above the soil line. The stem turns brown, sunken and dry (collar rot). If the infection girdles the stem, the seedling wilts and dies. Fruit can be infected at any stage of maturity. Fruit spots are leathery and black, with raised concentric ridges. They generally occur near the stem. Infected fruit may drop from the plant.",
         "treatments": [
-            "Plant resistant corn varieties if available.",
-            "Apply fungicides as a preventive measure.",
-            "Maintain field sanitation by removing debris."
+            "Cover the soil under the plants with mulch, such as fabric, straw, plastic mulch, or dried leaves.",
+            "Water at the base of each plant, using drip irrigation, a soaker hose, or careful hand watering.",
+            "Increase airflow by staking or trellising, removing weeds, and spacing plants adequately apart",
+            "Pruning the bottom leaves can also prev",
+            "Pinch off leaves with leaf spots and bury them in the compost pile.",
+            "Let two years pass before you plant tomatoes or peppers in the same location",
+            "Early blight-resistant varieties are readily available.  As early blight occurs commonly in Minnesota, gardeners should look into these varieties.",
+            "Resistance does not mean you will not see any early blight; rather, resistant varieties can better tolerate the pathogens, and so the damage will be less severe than with non-resistant varieties."
         ]
     },
     {
-        "name": "Corn_(maize)___Common_rust_",
-        "symptoms": [
-            "Small, reddish-brown pustules (rusts) on corn leaves, stems, and husks.",
-            "Rust pustules can rupture and release spores.",
-            "Reduced photosynthesis, stunted growth, and yield loss."
-        ],
+        "name": "Tomato Late blight",
+        "symptoms":
+            "Leaves have large, dark brown blotches with a green gray edge; not confined by major leaf veins. Infections progress through leaflets and petioles, resulting in large sections of dry brown foliage. In high humidity, thin powdery white fungal growth appears on infected leaves, tomato fruit and stems. Infected potato tubers become discolored (anywhere from brown to red to purple), and infected by secondary soft rot bacteria", "treatments": [
+                "Plant tomatoes where no tomatoes, potatoes, peppers or eggplants have been for the past 3-4 years.",
+                "Plant tomatoes where no tomatoes, potatoes, peppers or eggplants have been for the past 3-4 years.",
+                "Remove or bury plants at the end of the season. Manage cull piles so culls break down over winter.",
+                "Late blight isn’t often seen in Minnesota gardens, and pesticides sprays are not recommended in the home garden."
+            ]
+    },
+    {
+        "name": "Tomato Leaf Mold",
+        "symptoms": "",
         "treatments": [
-            "Plant rust-resistant corn varieties if possible.",
-            "Apply fungicides during the growing season as needed.",
-            "Remove and destroy infected plant parts."
+            "Use drip irrigation and avoid watering foliage.",
+            "Space plants to provide good air movement between rows and individual plants.",
+            "Stake, string or prune to increase airflow in and around the plant.",
+            "Sterilize stakes, ties, trellises, etc. with 10percent household bleach or commercial sanitizer.",
+            "Keep night temperatures in greenhouses higher than outside temperatures to avoid dew formation on the foliage.",
+            "Clean the high tunnel or greenhouse walls and benches at the end of the season with a commercial sanitizer.",
+            "Fungicide applications should be made prior to infection when environmental conditions favor disease to be the most effective.",
         ]
     },
     {
-        "name": "Corn_(maize)___Northern_Leaf_Blight",
-        "symptoms": [
-            "Long, elliptical lesions with tan centers and dark borders on corn leaves.",
-            "Lesions may coalesce and result in large, irregular areas of blighted tissue.",
-            "Reduced photosynthesis and yield loss."
-        ],
+        "name": "Tomato Septoria leaf spot",
+        "symptoms": "Septoria leaf spot starts on lower leaves as small, circular gray lesions (spots) with dark borders. Fungal lesions enlarge, coalesce, and cause leaves to yellow and die. Lesions usually appear when the first fruit begins to form. Tiny black pycnidia (fungal fruiting bodies) can be seen in the lesions. Favored by wet weather.",
         "treatments": [
-            "Plant resistant corn varieties if available.",
-            "Apply fungicides during the growing season.",
-            "Practice crop rotation and remove crop debris."
+            "Provide adequate spacing to increase air circulation and remove all suckers that emerge from the plant base",
+            "Monitor transplants carefully for signs of this disease.",
+            "Keep plants well mulched to minimize soil splashing.",
+            "Water plants at their base. Avoid wetting the foliage.",
+            "Prune off the lowest 3-4 leaf branches once plants are well established and starting to develop fruits.",
+            "Remove infected leaves during the growing season and remove all infected plant parts at the end of the season.",
         ]
     },
     {
-        "name": "Corn_(maize)___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Grape___Black_rot",
-        "symptoms": [
-            "Circular, brown lesions on leaves, fruit, and stems.",
-            "Affected grapes become dark, shriveled, and mummified.",
-            "Reduced fruit yield and quality."
-        ],
+        "name": "Tomato Target Spot",
+        "symptoms": "The target spot fungus can infect all above-ground parts of the tomato plant. Plants are most susceptible as seedlings and just before and during fruiting. The initial foliar symptoms are pinpoint-sized, water-soaked spots on the upper leaf surface. The spots develop into small, necrotic lesions that have light brown centers and dark margins. These symptoms may be confused with symptoms of bacterial spot.",
         "treatments": [
-            "Prune and remove infected plant parts.",
-            "Apply fungicides before and during the growing season.",
-            "Promote good vineyard hygiene to reduce disease spread."
+            "Cultural practices for target spot management include improving airflow through the canopy by wider plant spacing and avoiding over-fertilizing with nitrogen, which can cause overly lush canopy formation.",
+            "Pruning suckers and older leaves in the lower canopy can also increase airflow and reduce leaf wetness.",
+            "Avoid planting tomatoes near old plantings. Inspect seedlings for target spot symptoms before transplanting."
         ]
     },
     {
-        "name": "Grape___Esca_(Black_Measles)",
-        "symptoms": [
-            "Black streaks or lesions on leaves, stems, and fruit.",
-            "Affected leaves may have a reddish or purplish discoloration.",
-            "Reduced vine growth and fruit quality."
-        ],
+        "name": "Tomato Tomato YellowLeaf Curl Virus",
+        "symptoms":
+        "The most obvious symptoms in tomato plants are small leaves that become yellow between the veins. The leaves also curl upwards and towards the middle of the leaf",
         "treatments": [
-            "Prune and remove infected plant parts.",
-            "Apply fungicides as preventive measures.",
-            "Improve vineyard sanitation."
+            "Inspect plants for whitefly infestations two times per week. If whiteflies are beginning to appear, spray with azadirachtin (Neem), pyrethrin or insecticidal soap. For more effective control, it is recommended that at least two of the above insecticides be rotated at each spraying. Follow label directions closely for dosage rates, spray intervals and precautions. Spray the undersides of the leaves thoroughly.",
+            "If symptomatic plants have no obvious whiteflies on the lower leaf surface, these plants can be cut from the garden and BURIED in the compost."
         ]
     },
     {
-        "name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
-        "symptoms": [
-            "Small, circular to irregular spots on grape leaves.",
-            "Spots may have a grayish-white center and dark margins.",
-            "Premature leaf drop and reduced fruit quality."
-        ],
+        "name": "Tomato Tomato mosaic virus",
+        "symptoms":
+        "The foliage of affected tomato plants shows mottling, with alternating yellowish and darker green areas, the latter often appearing thicker and raised giving a blister-like appearance. The leaves tend to be fern-like in appearance with pointed tips and younger leaves may be twisted. The fruit may be distorted, yellow blotches and necrotic spots may occur on both ripe and green fruit and there may be internal browning of the fruit wall. In young plants, the infection reduces the set of fruit and may cause distortions and blemishes.",
         "treatments": [
-            "Prune and remove infected leaves.",
-            "Apply fungicides during the growing season.",
-            "Maintain good air circulation."
+            "Monitor the rest of your plants closely, especially those that were located near infected plants.",
+            "Disinfect gardening tools after every use. Keep a bottle of a weak bleach solution or other antiviral disinfectant to wipe your tools down with.",
+            "Remove all infected plants and destroy them. Do NOT put them in the compost pile, as the virus may persist in infected plant matter. Burn infected plants or throw them out with the garbage."
         ]
-    },
-    {
-        "name": "Grape___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Orange___Haunglongbing_(Citrus_greening)",
-        "symptoms": [
-            "Yellowing and blotchy mottling of leaves.",
-            "Premature fruit drop and small, lopsided, bitter fruit.",
-            "Reduced fruit yield and quality."
-        ],
-        "treatments": [
-            "Plant disease-free citrus stock.",
-            "Control psyllid insects that spread the disease.",
-            "Apply nutritional sprays to affected trees."
-        ]
-    },
-    {
-        "name": "Peach___Bacterial_spot",
-        "symptoms": [
-            "Circular, water-soaked lesions on peach leaves, often with a yellow halo.",
-            "Lesions may also occur on fruit, causing raised, dark spots.",
-            "Leaf drop and reduced fruit quality."
-        ],
-        "treatments": [
-            "Apply copper-based sprays during the growing season.",
-            "Remove and destroy infected plant parts.",
-            "Practice good orchard sanitation to reduce disease spread."
-        ]
-    },
-    {
-        "name": "Peach___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Pepper,_bell___Bacterial_spot",
-        "symptoms": [
-            "Circular, water-soaked lesions on pepper leaves, turning dark with age.",
-            "Lesions may have a yellow halo.",
-            "Leaf distortion and fruit spots can occur."
-        ],
-        "treatments": [
-            "Apply copper-based sprays as a preventive measure.",
-            "Remove and destroy infected plant parts.",
-            "Practice crop rotation to reduce disease pressure."
-        ]
-    },
-    {
-        "name": "Pepper,_bell___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Potato___Early_blight",
-        "symptoms": [
-            "Circular, dark brown lesions with concentric rings on potato leaves.",
-            "Lesions may have a target-like appearance.",
-            "Reduced plant vigor and yield."
-        ],
-        "treatments": [
-            "Remove and destroy infected plant parts.",
-            "Apply fungicides during the growing season.",
-            "Practice crop rotation and avoid overhead watering."
-        ]
-    },
-    {
-        "name": "Potato___Late_blight",
-        "symptoms": [
-            "Dark, water-soaked lesions on potato leaves, often with white, fuzzy growth.",
-            "Affected leaves may turn brown and die rapidly.",
-            "Reduced yield and tuber quality."
-        ],
-        "treatments": [
-            "Remove and destroy infected plant parts.",
-            "Apply fungicides preventively, especially during wet conditions.",
-            "Avoid planting infected seed potatoes."
-        ]
-    },
-    {
-        "name": "Potato___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Raspberry___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Soybean___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Squash___Powdery_mildew",
-        "symptoms": [
-            "White, powdery fungal growth on squash leaves, fruit, and stems.",
-            "Leaves may become distorted or curl.",
-            "Reduced fruit yield and quality."
-        ],
-        "treatments": [
-            "Apply fungicides during the growing season.",
-            "Prune and remove infected plant parts.",
-            "Promote good air circulation in the garden."
-        ]
-    },
-    {
-        "name": "Strawberry___Leaf_scorch",
-        "symptoms": [
-            "Margins of strawberry leaves turn brown and become scorched or necrotic.",
-            "Leaves may curl or appear distorted.",
-            "Reduced fruit production and overall plant vigor."
-        ],
-        "treatments": [
-            "Ensure adequate irrigation to maintain soil moisture.",
-            "Avoid over-fertilization, especially with high nitrogen levels.",
-            "Remove and destroy affected leaves to prevent disease spread."
-        ]
-    },
-    {
-        "name": "Strawberry___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
-    {
-        "name": "Tomato___Bacterial_spot",
-        "symptoms": [
-            "Dark, raised lesions on tomato leaves, fruit, and stems.",
-            "Lesions may ooze bacterial exudate.",
-            "Reduced fruit yield and quality."
-        ],
-        "treatments": [
-            "Remove and destroy infected plant parts.",
-            "Apply copper-based sprays.",
-            "Practice crop rotation."
-        ]
-    },
-    {
-        "name": "Tomato___Early_blight",
-        "symptoms": [
-            "Dark, concentric rings on lower tomato leaves.",
-            "Leaves may turn yellow and die, starting from the bottom of the plant.",
-            "Reduced fruit yield and quality."
-        ],
-        "treatments": [
-            "Remove affected leaves and destroy them.",
-            "Apply fungicides as a preventive measure.",
-            "Ensure good airflow and spacing between plants."
-        ]
-    },
-    {
-        "name": "Tomato___Late_blight",
-        "symptoms": [
-            "Dark, water-soaked lesions on tomato leaves, stems, and fruit.",
-            "White, fluffy spores may appear on the underside of leaves.",
-            "Fruits can develop brown, irregular blotches."
-        ],
-        "treatments": [
-            "Remove and destroy affected plant parts.",
-            "Apply copper-based fungicides.",
-            "Practice good garden hygiene to prevent spore spread."
-        ]
-    },
-    {
-        "name": "Tomato___Leaf_Mold",
-        "symptoms": [
-            "Fuzzy, white to yellow patches on tomato leaves, usually starting from older leaves.",
-            "Affected leaves may curl and die."
-        ],
-        "treatments": [
-            "Prune and remove affected leaves.",
-            "Ensure good air circulation around tomato plants.",
-            "Avoid overhead watering."
-        ]
-    },
-    {
-        "name": "Tomato___Septoria_leaf_spot",
-        "symptoms": [
-            "Small, circular spots with dark margins on tomato leaves.",
-            "Spots may have a white center."
-        ],
-        "treatments": [
-            "Remove and destroy affected leaves.",
-            "Apply fungicides if necessary.",
-            "Avoid overhead watering."
-        ]
-    },
-    {
-        "name": "Tomato___Spider_mites Two-spotted_spider_mite",
-        "symptoms": [
-            "Yellow stippling and tiny webs on the undersides of tomato leaves.",
-            "Leaf discoloration and reduced plant vigor."
-        ],
-        "treatments": [
-            "Spray plants with a strong stream of water to remove mites.",
-            "Use miticides if infestations are severe.",
-            "Increase humidity around plants."
-        ]
-    },
-    {
-        "name": "Tomato___Target_Spot",
-        "symptoms": [
-            "Dark, concentric rings on tomato leaves with a target-like appearance.",
-            "Lesions may expand and cause defoliation.",
-            "Reduced fruit yield and quality."
-        ],
-        "treatments": [
-            "Remove and destroy infected plant parts.",
-            "Apply fungicides during the growing season.",
-            "Ensure good air circulation in the garden."
-        ]
-    },
-    {
-        "name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
-        "symptoms": [
-            "Yellowing and upward curling of tomato leaves.",
-            "Stunted growth and reduced fruit yield."
-        ],
-        "treatments": [
-            "Use virus-resistant tomato varieties.",
-            "Manage whitefly populations, which transmit the virus."
-        ]
-    },
-    {
-        "name": "Tomato___Tomato_mosaic_virus",
-        "symptoms": [
-            "Mottled or streaked yellow and green patterns on tomato leaves.",
-            "Reduced fruit yield and quality."
-        ],
-        "treatments": [
-            "Remove and destroy infected plants.",
-            "Control aphid populations, which transmit the virus.",
-            "Use virus-free seedlings."
-        ]
-    },
-    {
-        "name": "Tomato___healthy",
-        "symptoms": ["No specific symptoms or treatment needed."]
-    },
+    }
 ]
+
 
 PEST_CLASS_NAMES = ["ants", "bees", "beetle", "caterpillar", "earthworms", "earwig", "grasshopper",
                     "moth", "slug", "snail", "wasp", "weevil"]
@@ -559,7 +312,7 @@ PEST_INFO = [
 
 
 # Definately not the best way to do this, but it works
-PLANTMODEL = tf.keras.models.load_model("./models/plant_disease_classifier.h5")
+PLANTMODEL = tf.keras.models.load_model("./models/version_3.h5")
 
 PESTMODEL = tf.keras.models.load_model("./models/pest_detector.h5")
 
@@ -583,7 +336,7 @@ async def predict(
     file: UploadFile = File(...)
 ):
     img = Image.open(BytesIO(await file.read())).convert("RGB")
-    img = np.array(img.resize((64, 64)))
+    img = np.array(img.resize((256, 256))) / 256
     img = np.expand_dims(img, axis=0)
     prediction = PLANTMODEL.predict(img)
     confidence = float(np.max(prediction))

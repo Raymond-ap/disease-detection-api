@@ -1,0 +1,383 @@
+PLANT_MANAGEMENTS = [
+    {
+        "name": "Apple___Apple_scab",
+        "symptoms": [
+            "Circular, brown to black lesions on apple leaves, fruit, and stems.",
+            "Lesions may have a dark border and cause fruit to shrivel and mummify.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Prune and remove infected plant parts.",
+            "Apply fungicides during the growing season.",
+            "Practice good orchard sanitation to reduce disease spread."
+        ]
+    },
+    {
+        "name": "Apple___Black_rot",
+        "symptoms": [
+            "Circular, brown to black lesions on apple leaves, fruit, and stems.",
+            "Lesions may have a dark border and cause fruit to shrivel and mummify.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Prune and remove infected plant parts.",
+            "Apply fungicides during the growing season.",
+            "Practice good orchard sanitation to reduce disease spread."
+        ]
+    },
+    {
+        "name": "Apple___Cedar_apple_rust",
+        "symptoms": [
+            "Bright orange, spore-producing galls on apple leaves and fruit.",
+            "Yellow or orange spots on apple leaves with small black dots.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Remove cedar trees nearby as they serve as alternate hosts.",
+            "Apply fungicides during apple growing season.",
+            "Prune and destroy infected plant parts."
+        ]
+    },
+    {
+        "name": "Apple___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Blueberry___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Cherry_(including_sour)___Powdery_mildew",
+        "symptoms": [
+            "White, powdery fungal growth on cherry leaves, fruit, and stems.",
+            "Affected leaves may become distorted or curl.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Apply fungicides during the growing season.",
+            "Prune and remove infected plant parts.",
+            "Promote good air circulation in the orchard."
+        ]
+    },
+    {
+        "name": "Cherry_(including_sour)___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot",
+        "symptoms": [
+            "Small, circular to oval lesions with gray centers and dark borders on corn leaves.",
+            "Leaves may turn yellow or brown, and lesions can coalesce.",
+            "Reduced photosynthesis and yield loss."
+        ],
+        "treatments": [
+            "Plant resistant corn varieties if available.",
+            "Apply fungicides as a preventive measure.",
+            "Maintain field sanitation by removing debris."
+        ]
+    },
+    {
+        "name": "Corn_(maize)___Common_rust_",
+        "symptoms": [
+            "Small, reddish-brown pustules (rusts) on corn leaves, stems, and husks.",
+            "Rust pustules can rupture and release spores.",
+            "Reduced photosynthesis, stunted growth, and yield loss."
+        ],
+        "treatments": [
+            "Plant rust-resistant corn varieties if possible.",
+            "Apply fungicides during the growing season as needed.",
+            "Remove and destroy infected plant parts."
+        ]
+    },
+    {
+        "name": "Corn_(maize)___Northern_Leaf_Blight",
+        "symptoms": [
+            "Long, elliptical lesions with tan centers and dark borders on corn leaves.",
+            "Lesions may coalesce and result in large, irregular areas of blighted tissue.",
+            "Reduced photosynthesis and yield loss."
+        ],
+        "treatments": [
+            "Plant resistant corn varieties if available.",
+            "Apply fungicides during the growing season.",
+            "Practice crop rotation and remove crop debris."
+        ]
+    },
+    {
+        "name": "Corn_(maize)___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Grape___Black_rot",
+        "symptoms": [
+            "Circular, brown lesions on leaves, fruit, and stems.",
+            "Affected grapes become dark, shriveled, and mummified.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Prune and remove infected plant parts.",
+            "Apply fungicides before and during the growing season.",
+            "Promote good vineyard hygiene to reduce disease spread."
+        ]
+    },
+    {
+        "name": "Grape___Esca_(Black_Measles)",
+        "symptoms": [
+            "Black streaks or lesions on leaves, stems, and fruit.",
+            "Affected leaves may have a reddish or purplish discoloration.",
+            "Reduced vine growth and fruit quality."
+        ],
+        "treatments": [
+            "Prune and remove infected plant parts.",
+            "Apply fungicides as preventive measures.",
+            "Improve vineyard sanitation."
+        ]
+    },
+    {
+        "name": "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)",
+        "symptoms": [
+            "Small, circular to irregular spots on grape leaves.",
+            "Spots may have a grayish-white center and dark margins.",
+            "Premature leaf drop and reduced fruit quality."
+        ],
+        "treatments": [
+            "Prune and remove infected leaves.",
+            "Apply fungicides during the growing season.",
+            "Maintain good air circulation."
+        ]
+    },
+    {
+        "name": "Grape___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Orange___Haunglongbing_(Citrus_greening)",
+        "symptoms": [
+            "Yellowing and blotchy mottling of leaves.",
+            "Premature fruit drop and small, lopsided, bitter fruit.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Plant disease-free citrus stock.",
+            "Control psyllid insects that spread the disease.",
+            "Apply nutritional sprays to affected trees."
+        ]
+    },
+    {
+        "name": "Peach___Bacterial_spot",
+        "symptoms": [
+            "Circular, water-soaked lesions on peach leaves, often with a yellow halo.",
+            "Lesions may also occur on fruit, causing raised, dark spots.",
+            "Leaf drop and reduced fruit quality."
+        ],
+        "treatments": [
+            "Apply copper-based sprays during the growing season.",
+            "Remove and destroy infected plant parts.",
+            "Practice good orchard sanitation to reduce disease spread."
+        ]
+    },
+    {
+        "name": "Peach___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Pepper,_bell___Bacterial_spot",
+        "symptoms": [
+            "Circular, water-soaked lesions on pepper leaves, turning dark with age.",
+            "Lesions may have a yellow halo.",
+            "Leaf distortion and fruit spots can occur."
+        ],
+        "treatments": [
+            "Apply copper-based sprays as a preventive measure.",
+            "Remove and destroy infected plant parts.",
+            "Practice crop rotation to reduce disease pressure."
+        ]
+    },
+    {
+        "name": "Pepper,_bell___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Potato___Early_blight",
+        "symptoms": [
+            "Circular, dark brown lesions with concentric rings on potato leaves.",
+            "Lesions may have a target-like appearance.",
+            "Reduced plant vigor and yield."
+        ],
+        "treatments": [
+            "Remove and destroy infected plant parts.",
+            "Apply fungicides during the growing season.",
+            "Practice crop rotation and avoid overhead watering."
+        ]
+    },
+    {
+        "name": "Potato___Late_blight",
+        "symptoms": [
+            "Dark, water-soaked lesions on potato leaves, often with white, fuzzy growth.",
+            "Affected leaves may turn brown and die rapidly.",
+            "Reduced yield and tuber quality."
+        ],
+        "treatments": [
+            "Remove and destroy infected plant parts.",
+            "Apply fungicides preventively, especially during wet conditions.",
+            "Avoid planting infected seed potatoes."
+        ]
+    },
+    {
+        "name": "Potato___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Raspberry___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Soybean___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Squash___Powdery_mildew",
+        "symptoms": [
+            "White, powdery fungal growth on squash leaves, fruit, and stems.",
+            "Leaves may become distorted or curl.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Apply fungicides during the growing season.",
+            "Prune and remove infected plant parts.",
+            "Promote good air circulation in the garden."
+        ]
+    },
+    {
+        "name": "Strawberry___Leaf_scorch",
+        "symptoms": [
+            "Margins of strawberry leaves turn brown and become scorched or necrotic.",
+            "Leaves may curl or appear distorted.",
+            "Reduced fruit production and overall plant vigor."
+        ],
+        "treatments": [
+            "Ensure adequate irrigation to maintain soil moisture.",
+            "Avoid over-fertilization, especially with high nitrogen levels.",
+            "Remove and destroy affected leaves to prevent disease spread."
+        ]
+    },
+    {
+        "name": "Strawberry___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+    {
+        "name": "Tomato___Bacterial_spot",
+        "symptoms": [
+            "Dark, raised lesions on tomato leaves, fruit, and stems.",
+            "Lesions may ooze bacterial exudate.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Remove and destroy infected plant parts.",
+            "Apply copper-based sprays.",
+            "Practice crop rotation."
+        ]
+    },
+    {
+        "name": "Tomato___Early_blight",
+        "symptoms": [
+            "Dark, concentric rings on lower tomato leaves.",
+            "Leaves may turn yellow and die, starting from the bottom of the plant.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Remove affected leaves and destroy them.",
+            "Apply fungicides as a preventive measure.",
+            "Ensure good airflow and spacing between plants."
+        ]
+    },
+    {
+        "name": "Tomato___Late_blight",
+        "symptoms": [
+            "Dark, water-soaked lesions on tomato leaves, stems, and fruit.",
+            "White, fluffy spores may appear on the underside of leaves.",
+            "Fruits can develop brown, irregular blotches."
+        ],
+        "treatments": [
+            "Remove and destroy affected plant parts.",
+            "Apply copper-based fungicides.",
+            "Practice good garden hygiene to prevent spore spread."
+        ]
+    },
+    {
+        "name": "Tomato___Leaf_Mold",
+        "symptoms": [
+            "Fuzzy, white to yellow patches on tomato leaves, usually starting from older leaves.",
+            "Affected leaves may curl and die."
+        ],
+        "treatments": [
+            "Prune and remove affected leaves.",
+            "Ensure good air circulation around tomato plants.",
+            "Avoid overhead watering."
+        ]
+    },
+    {
+        "name": "Tomato___Septoria_leaf_spot",
+        "symptoms": [
+            "Small, circular spots with dark margins on tomato leaves.",
+            "Spots may have a white center."
+        ],
+        "treatments": [
+            "Remove and destroy affected leaves.",
+            "Apply fungicides if necessary.",
+            "Avoid overhead watering."
+        ]
+    },
+    {
+        "name": "Tomato___Spider_mites Two-spotted_spider_mite",
+        "symptoms": [
+            "Yellow stippling and tiny webs on the undersides of tomato leaves.",
+            "Leaf discoloration and reduced plant vigor."
+        ],
+        "treatments": [
+            "Spray plants with a strong stream of water to remove mites.",
+            "Use miticides if infestations are severe.",
+            "Increase humidity around plants."
+        ]
+    },
+    {
+        "name": "Tomato___Target_Spot",
+        "symptoms": [
+            "Dark, concentric rings on tomato leaves with a target-like appearance.",
+            "Lesions may expand and cause defoliation.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Remove and destroy infected plant parts.",
+            "Apply fungicides during the growing season.",
+            "Ensure good air circulation in the garden."
+        ]
+    },
+    {
+        "name": "Tomato___Tomato_Yellow_Leaf_Curl_Virus",
+        "symptoms": [
+            "Yellowing and upward curling of tomato leaves.",
+            "Stunted growth and reduced fruit yield."
+        ],
+        "treatments": [
+            "Use virus-resistant tomato varieties.",
+            "Manage whitefly populations, which transmit the virus."
+        ]
+    },
+    {
+        "name": "Tomato___Tomato_mosaic_virus",
+        "symptoms": [
+            "Mottled or streaked yellow and green patterns on tomato leaves.",
+            "Reduced fruit yield and quality."
+        ],
+        "treatments": [
+            "Remove and destroy infected plants.",
+            "Control aphid populations, which transmit the virus.",
+            "Use virus-free seedlings."
+        ]
+    },
+    {
+        "name": "Tomato___healthy",
+        "symptoms": ["No specific symptoms or treatment needed."]
+    },
+]
+
