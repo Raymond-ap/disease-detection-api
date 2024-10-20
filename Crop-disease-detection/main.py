@@ -316,7 +316,6 @@ PLANTMODEL = tf.keras.models.load_model("./models/version_3.h5")
 
 PESTMODEL = tf.keras.models.load_model("./models/pest_detector.h5")
 
-
 def get_plant_extras(name):
     for cure in PLANT_MANAGEMENTS:
         if cure["name"] == name:
