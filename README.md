@@ -3,7 +3,3 @@
 Crop Disease Prediction and Pest Prediction API Model. This is the second part of the entire project of building a plant and pest detection mobile app using machine Learning algorithms and computer vision
 <br/>
 #### Link to Classification Training Model https://github.com/Raymond-ap/disease-detection
-
-# Team mate
-YOUNOUSSA ABDOURHAMAN<br/>
-https://github.com/YounoussaBen
